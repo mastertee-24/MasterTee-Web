@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <script>
+        let a = 5;
+        let b = a;
+        a = 10;
+        console.log(a)
+        console.log(b)
+        let FirstName = "Taiwo";
+        let SecondName = "Agboola";
+        let age = 18;
+        let details = "hello! my first name is, "  + FirstName + ", my last name is, "  + SecondName + ", my age is " + age +".";
+        console.log(details);
+        let MyDetails = `My name is ${FirstName} ${SecondName}, and my age is ${age+1}. `;
+        console.log(MyDetails);
+        // uppercase //
+        let SurName = "MasterTee";
+        let upper = SurName.toUpperCase();
+        console.log(upper);
+        // lowecase//
+      /*  let lower = SurName.toLowerCase();
+        console.log(lower);
+        const Name = prompt("Enter your name:");
+        const toUpper = Name.toUpperCase();
+        console.log(toUpper);*/
+        // replace //
+       /* const text = " javascript programming";
+        const replace = text.replace("javascript", "python");
+        console.log(replace);*/
+        const text = "javascript";
+        const replace = text.charAt(0);
+        console.log(replace);
+        // slice //
+        let texts = "Javascript programming";
+       /* let change = "j"+texts.slice("1");*/
+      /* let change = texts.substring("0,10")*/
+      /*let change = texts.includes("Java");*/
+      let change = texts.split(" ")
+        console.log(change);
+        
+    </script>
+</body>
+</html>

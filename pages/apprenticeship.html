@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Apprenticeship Application | MasterTee Tech Communication</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="../CSS/apprenticeship.css" />
+  </head>
+
+  <body>
+     <div>
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom heading-link"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none logo"
+        >
+          <span class="fs-4 logo-name">MASTERTEE TECH</span>
+        </a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="service.html" class="nav-link">Service</a>
+          </li>
+          <li class="nav-item"><a href="skill.html" class="nav-link">Skill</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </header>
+    </div>
+  
+
+     <!-- Contact Hero -->
+    <section class="contact-hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="contact-label">MASTERTEE TECH COMMUNICATION </p>
+
+            <h1>
+              Apprenticeship Application
+            </h1>
+
+            <p class="contact-hero-text">
+            Start your journey toward becoming a skilled mobile phone
+            technician.
+            </p>
+
+            <div class="contact-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-section py-5">
+      <div class="container">
+        <div class="application-card">
+          <!-- Form Introduction -->
+          <div class="form-intro text-center mb-5">
+            <div class="form-icon">
+              <i class="bi bi-person-workspace"></i>
+            </div>
+
+            <h2>Apply for Apprenticeship</h2>
+
+            <p>
+              Please provide your details below. We will review your application
+              and contact you with further information about the apprenticeship
+              program.
+            </p>
+          </div>
+
+          <form>
+            <!-- =================================
+                         PERSONAL INFORMATION
+                    ================================== -->
+
+            <div class="form-section-title">
+              <i class="bi bi-person-fill"></i>
+              <span>Personal Information</span>
+            </div>
+
+            <div class="row g-4">
+              <div class="col-md-6">
+                <label class="form-label"> Full Name </label>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label"> Phone Number </label>
+
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label"> Email Address </label>
+
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email address"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label"> Date of Birth </label>
+
+                <input type="date" class="form-control" required />
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label"> Gender </label>
+
+                <select class="form-select" required>
+                  <option value="">Select Gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label"> Residential Address </label>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your address"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- =================================
+                         APPRENTICESHIP INFORMATION
+                    ================================== -->
+
+            <div class="form-section-title mt-5">
+              <i class="bi bi-tools"></i>
+              <span>Apprenticeship Information</span>
+            </div>
+
+            <div class="row g-4">
+              <div class="col-md-6">
+                <label class="form-label">
+                  Previous Technical Experience
+                </label>
+
+                <select class="form-select">
+                  <option value="">Select an option</option>
+
+                  <option>No previous experience</option>
+
+                  <option>Beginner</option>
+
+                  <option>Some repair experience</option>
+
+                  <option>Experienced technician</option>
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label"> How did you hear about us? </label>
+
+                <select class="form-select">
+                  <option value="">Select an option</option>
+
+                  <option>Friend or Family</option>
+
+                  <option>Social Media</option>
+
+                  <option>Google</option>
+
+                  <option>Walk-in</option>
+
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">
+                  Why do you want to learn phone repair?
+                </label>
+
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  placeholder="Tell us why you want to become a phone technician..."
+                  required
+                ></textarea>
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">
+                  Do you have any previous phone repair knowledge?
+                </label>
+
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="Briefly describe your previous knowledge or experience..."
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- =================================
+                         PARENT / GUARDIAN INFORMATION
+                    ================================== -->
+
+            <div class="form-section-title mt-5">
+              <i class="bi bi-people-fill"></i>
+              <span>Parent / Guardian Information</span>
+            </div>
+
+            <div class="row g-4">
+              <div class="col-md-6">
+                <label class="form-label"> Parent / Guardian Name </label>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter parent or guardian name"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label"> Parent / Guardian Phone </label>
+
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Enter phone number"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label"> Relationship </label>
+
+                <select class="form-select">
+                  <option value="">Select relationship</option>
+
+                  <option>Father</option>
+                  <option>Mother</option>
+                  <option>Guardian</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- =================================
+                         PASSPORT PHOTO
+                    ================================== -->
+
+            <div class="form-section-title mt-5">
+              <i class="bi bi-camera-fill"></i>
+              <span>Applicant Photo</span>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <label class="form-label"> Passport Photograph </label>
+
+                <input type="file" class="form-control" accept="image/*" />
+
+                <small class="text-muted">
+                  Upload a clear passport photograph.
+                </small>
+              </div>
+            </div>
+
+            <!-- =================================
+                         AGREEMENT
+                    ================================== -->
+
+            <div class="agreement-box mt-5">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="agreement"
+                  required
+                />
+
+                <label class="form-check-label" for="agreement">
+                  I confirm that the information I have provided is correct and
+                  I agree to follow the rules and regulations of the MasterTee
+                  Tech Communication apprenticeship program.
+                </label>
+              </div>
+            </div>
+
+            <!-- Submit -->
+
+            <div class="text-center mt-4">
+              <button type="submit" class="btn submit-application">
+                <i class="bi bi-send-fill"></i>
+                Submit Application
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- =========================
+     FOOTER
+========================= -->
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Brand -->
+
+          <div class="col-lg-4 col-md-6">
+            <h3 class="footer-brand">MASTERTEE TECH</h3>
+
+            <p>
+              Professional mobile phone repair services you can trust. We
+              repair, we care, and we deliver quality.
+            </p>
+
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+
+              <a href="#" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+
+              <a href="#" aria-label="WhatsApp">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+
+              <a href="#" aria-label="Twitter">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+
+          <div class="col-lg-2 col-md-6">
+            <h4>Quick Links</h4>
+
+            <ul class="footer-links">
+              <li>
+                <a href="../index.html">Home</a>
+              </li>
+
+              <li>
+                <a href="service.html">Service</a>
+              </li>
+
+              <li>
+                <a href="skill.html">Skill</a>
+              </li>
+
+              <li>
+                <a href="about.html">About</a>
+              </li>
+
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+
+          <div class="col-lg-3 col-md-6">
+            <h4>Our Services</h4>
+
+            <ul class="footer-links">
+               <li>
+                        <a href="contact.html">Screen Repair</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Battery Replacement</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Software Repair</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Water Damage</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Board Repair</a>
+                    </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+
+          <div class="col-lg-3 col-md-6">
+            <h4>Contact Us</h4>
+
+            <ul class="footer-contact">
+              <li>
+                <i class="bi bi-telephone-fill"></i>
+
+                <span> 08116472328 </span>
+              </li>
+
+              <li>
+                <i class="bi bi-envelope-fill"></i>
+
+                <span> masterteetech@gmail.com </span>
+              </li>
+
+              <li>
+                <i class="bi bi-geo-alt-fill"></i>
+
+                <span>
+                  Near Dele Charles Fashion Designer Venture, Odowara Odowara
+                  342106, Akoko South West 342107, Ondo,<br />
+                  Nigeria
+                </span>
+              </li>
+            </ul>
+
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© 2026 MasterTee Tech. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

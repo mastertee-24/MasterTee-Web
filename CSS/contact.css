@@ -1,0 +1,768 @@
+/* navigation */
+.heading-link{
+  background: rgb(44, 106, 207);
+  
+}
+@media (max-width:768px){
+  .nav-item .nav-link{
+    font-size: 14px;
+  }
+}
+.logo-name {
+  color: #fff;
+  font-weight: bold;
+}
+.nav .nav-link:hover{
+  background: linear-gradient(135deg, #4f46e5, #a855f7);
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+  overflow: visible;
+  transition: 0.3s ease;
+}
+.heading-link .logo-name{
+  padding-left: 5px;
+}
+
+/* =========================
+   CONTACT HERO
+========================= */
+
+.contact-hero {
+    min-height: 320px;
+    background:
+        linear-gradient(rgba(0, 20, 55, 0.88), rgba(0, 20, 55, 0.92)),
+        url("../image/service-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 70px 0;
+    margin-top: -25px;
+}
+
+.contact-label {
+    color: #1683ff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.contact-hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-hero h1 span {
+    color: #1683ff;
+}
+
+.contact-hero-text {
+    max-width: 650px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #e5eaf2;
+}
+
+.contact-line {
+    width: 50px;
+    height: 4px;
+    background: #1683ff;
+    margin: 28px auto 0;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+
+    .contact-hero {
+        min-height: 300px;
+        padding: 60px 20px;
+    }
+
+    .contact-hero h1 {
+        font-size: 34px;
+    }
+
+    .contact-hero-text {
+        font-size: 16px;
+    }
+}
+
+/* =================================
+   CONTACT MAIN SECTION
+================================= */
+
+.contact-main {
+    background: #ffffff;
+    padding: 80px 0;
+}
+
+
+/* LEFT SIDE */
+
+.contact-label {
+    color: #087cff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.contact-title {
+    color: #082552;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact-title span,
+.message-title span {
+    color: #087cff;
+}
+
+.contact-description {
+    color: #58709a;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+
+/* CONTACT DETAILS */
+
+.contact-detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 28px;
+}
+
+.detail-icon {
+    min-width: 48px;
+    height: 48px;
+    background: #087cff;
+    color: #ffffff;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 19px;
+}
+
+.contact-detail h5 {
+    color: #082552;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contact-detail p {
+    color: #6b82a5;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.contact-detail a,
+.contact-detail strong {
+    color: #082552;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-detail a:hover {
+    color: #087cff;
+}
+
+
+/* SOCIAL ICONS */
+
+.contact-socials {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.contact-socials a {
+    width: 34px;
+    height: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #087cff;
+    color: #ffffff;
+
+    border-radius: 50%;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.contact-socials a:hover {
+    transform: translateY(-4px);
+    background: #065ec4;
+}
+
+
+/* =================================
+   MESSAGE BOX
+================================= */
+
+.message-box {
+    background: #f1f8ff;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.message-title {
+    color: #082552;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.message-description {
+    color: #58709a;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+
+/* FORM */
+
+.form-label {
+    color: #082552;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.input-group-text {
+    background: #ffffff;
+    border: 1px solid #d9e5f3;
+    border-right: none;
+    color: #7da5d5;
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #d9e5f3;
+    min-height: 48px;
+    color: #082552;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #087cff;
+    box-shadow: 0 0 0 0.15rem rgba(8, 124, 255, 0.12);
+}
+
+textarea.form-control {
+    min-height: 130px;
+    resize: vertical;
+}
+
+
+/* =================================
+   IMAGE UPLOAD
+================================= */
+
+.image-upload {
+    border: 2px dashed #cbd8ea;
+
+    border-radius: 12px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    background: #f8fbff;
+
+    transition: all 0.3s ease;
+}
+
+.image-upload:hover {
+    border-color: #0d6efd;
+    background: #f1f7ff;
+}
+
+.image-upload > i {
+    display: block;
+
+    color: #0d6efd;
+
+    font-size: 35px;
+
+    margin-bottom: 8px;
+}
+
+.image-upload p {
+    color: #334155;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin-bottom: 12px;
+}
+
+.image-upload small {
+    display: block;
+
+    color: #94a3b8;
+
+    margin-top: 8px;
+}
+
+/* SEND BUTTON */
+
+.send-message-btn {
+    min-height: 50px;
+    margin-top: 5px;
+
+    background: #087cff;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 6px;
+
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.send-message-btn:hover {
+    background: #0668d6;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 768px) {
+
+    .contact-main {
+        padding: 60px 20px;
+    }
+
+    .contact-title {
+        font-size: 32px;
+    }
+
+    .message-box {
+        padding: 25px 20px;
+    }
+
+    .message-title {
+        font-size: 27px;
+    }
+
+}
+
+/* LOCATION & OPENING HOURS */
+
+.location-hours-section {
+    background: #f4f8ff;
+}
+
+
+/* MAP */
+
+.location-map {
+    min-height: 360px;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.location-map iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    display: block;
+}
+
+
+/* OPENING HOURS */
+
+.opening-hours {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+
+.hours-title {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.hours-icon {
+    width: 50px;
+    height: 50px;
+    background: #087cf9;
+    color: #ffffff;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+.hours-title span {
+    color: #087cf9;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.hours-title h2 {
+    margin: 5px 0 0;
+    color: #071a41;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.hours-intro {
+    color: #63708a;
+    margin: 15px 0 25px;
+}
+
+
+/* HOURS ROWS */
+
+.hours-list {
+    width: 100%;
+}
+
+
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #e3e8f0;
+
+    color: #071a41;
+}
+
+
+.hours-row strong {
+    font-weight: 600;
+}
+
+
+.hours-row span {
+    font-weight: 600;
+}
+
+
+/* EMERGENCY */
+
+.emergency-box {
+    margin-top: 25px;
+    padding: 18px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+
+    background: #edf6ff;
+    border-radius: 8px;
+
+    color: #087cf9;
+}
+
+
+.emergency-box > i {
+    font-size: 22px;
+}
+
+
+.emergency-box strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.emergency-box p {
+    margin: 0;
+    color: #087cf9;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+
+    background: #061a3a;
+
+    color: #ffffff;
+
+    padding-top: 70px;
+}
+
+
+/* Brand */
+
+.footer-brand {
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+}
+
+
+.site-footer p {
+
+    color: #b8c4d6;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    max-width: 330px;
+}
+
+
+/* Footer headings */
+
+.site-footer h4 {
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    margin-bottom: 22px;
+}
+
+
+/* Links */
+
+.footer-links {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+
+.footer-links li {
+
+    margin-bottom: 12px;
+}
+
+
+.footer-links a {
+
+    color: #b8c4d6;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+
+.footer-links a:hover {
+
+    color: #0d6efd;
+
+    padding-left: 5px;
+}
+
+
+/* Contact */
+
+.footer-contact {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+
+.footer-contact li {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-bottom: 15px;
+
+    color: #b8c4d6;
+
+    font-size: 14px;
+}
+
+
+.footer-contact i {
+
+    color: #0d6efd;
+
+    font-size: 16px;
+
+    margin-top: 3px;
+}
+
+
+/* Social icons */
+
+.footer-social {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-top: 22px;
+}
+
+
+.footer-social a {
+
+    width: 38px;
+
+    height: 38px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border: 1px solid #49617f;
+
+    border-radius: 50%;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+
+.footer-social a:hover {
+
+    background: #0d6efd;
+
+    border-color: #0d6efd;
+
+    transform: translateY(-3px);
+}
+
+
+/* Repair button */
+
+.footer-button {
+
+    background: #0d6efd;
+
+    color: #ffffff;
+
+    border: none;
+
+    padding: 10px 25px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    margin-top: 10px;
+}
+
+
+.footer-button:hover {
+
+    background: #0b5ed7;
+
+    color: #ffffff;
+}
+
+
+/* =========================
+   FOOTER BOTTOM
+========================= */
+
+.footer-bottom {
+
+    border-top: 1px solid #1d3557;
+
+    margin-top: 55px;
+
+    padding: 20px 0;
+
+    text-align: center;
+}
+
+
+.footer-bottom p {
+
+    margin: 0;
+
+    max-width: none;
+
+    font-size: 13px;
+
+    color: #8fa3bd;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .site-footer {
+
+        padding-top: 55px;
+
+    }
+
+    .footer-bottom {
+
+        margin-top: 40px;
+
+    }
+
+}

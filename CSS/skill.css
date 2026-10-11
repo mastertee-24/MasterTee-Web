@@ -1,0 +1,619 @@
+/* navigation */
+.heading-link{
+  background: rgb(44, 106, 207);
+  
+}
+@media (max-width:768px){
+  .nav-item .nav-link{
+    font-size: 14px;
+  }
+}
+.logo-name {
+  color: #fff;
+  font-weight: bold;
+}
+.nav .nav-link:hover{
+  background: linear-gradient(135deg, #4f46e5, #a855f7);
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+  overflow: visible;
+  transition: 0.3s ease;
+}
+.heading-link .logo-name{
+  padding-left: 5px;
+}
+
+/* =========================
+   SKILLS HERO
+========================= */
+
+
+
+.skills-label {
+    color: #0d6efd;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.skills-hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.skills-hero h1 span {
+    color: #0d6efd;
+}
+.skills-heading .profession-heading{
+    color: transparent;
+    background: linear-gradient(135deg, #4f46e5, #a855f7);
+    background-clip: text;
+}
+
+.skills-intro {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.hero-line {
+    width: 55px;
+    height: 4px;
+    background: #0d6efd;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* =========================
+   SKILLS HERO
+========================= */
+
+.skills-hero {
+    min-height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        linear-gradient(rgba(0, 15, 40, 0.88),
+                        rgba(0, 15, 40, 0.88)),
+        url("../image/service-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    padding: 60px 20px;
+    margin-top: -25px;
+}
+
+.skills-label {
+    color: #0d6efd;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.skills-hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.skills-hero h1 span {
+    color: #0d6efd;
+}
+
+.skills-intro {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.hero-line {
+    width: 55px;
+    height: 4px;
+    background: #0d6efd;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .skills-hero {
+        min-height: 300px;
+        padding: 50px 15px;
+    }
+
+    .skills-hero h1 {
+        font-size: 36px;
+    }
+
+    .skills-intro {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .skills-hero h1 {
+        font-size: 32px;
+    }
+
+    .skills-intro {
+        font-size: 15px;
+    }
+}
+
+/* =========================
+   REPAIR SKILLS SECTION
+========================= */
+
+.repair-skills {
+    background: #ffffff;
+}
+
+.skills-heading {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.section-label {
+    color: #0d6efd;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.skills-heading h2 {
+    color: #111827;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.skills-heading h2 span {
+    color: #0d6efd;
+}
+
+.skills-heading > p:last-child {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   REPAIR CARD
+========================= */
+
+.repair-card {
+    height: 100%;
+    padding: 28px 20px;
+
+    background: #ffffff;
+
+    border: 1px solid #e9eef5;
+    border-radius: 15px;
+
+    text-align: center;
+
+    transition: all 0.3s ease;
+}
+.repair-card .repair-heading {
+    color: #0d6efd;
+}
+
+
+/* Hover Effect */
+
+.repair-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #0d6efd;
+
+    box-shadow: 0 12px 30px rgba(13, 110, 253, 0.12);
+}
+
+
+/* Icon */
+
+.repair-icon {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eaf2ff;
+    color: #0d6efd;
+    border-radius: 50%;
+    font-size: 32px;
+    transition: all 0.3s ease;
+}
+
+/* repair icon hover */
+.repair-card:hover .repair-icon{
+    background: #0d6efd;
+    color: #ffffff;
+    transform: scale(1.08);
+}
+/* Card title */
+
+.repair-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #111827;
+
+    margin-bottom: 15px;
+}
+
+
+/* Card description */
+
+.repair-card p {
+    color: #555;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    margin-bottom: 0;
+}
+
+/* WHY CHOOSE US */
+.trust-section {
+    background: #f2f7ff;
+    padding: 75px 0;
+}
+
+.trust-heading h2 {
+    color: #111827;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.trust-heading h2 span {
+    color: #0d6efd;
+}
+.trust-heading .experience-heading{
+    color: transparent;
+    background: linear-gradient(135deg, #4f46e5, #a855f7);
+    background-clip: text;
+}
+
+.trust-line {
+    width: 45px;
+    height: 4px;
+    background: #0d6efd;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   TRUST ITEMS
+========================= */
+
+.trust-item {
+    position: relative;
+    padding: 10px 20px;
+}
+
+
+/* Icon */
+
+.trust-icon {
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #0d6efd;
+    color: white;
+
+    border-radius: 50%;
+
+    font-size: 28px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Hover */
+
+.trust-item:hover .trust-icon {
+    transform: translateY(-7px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(13, 110, 253, 0.25);
+}
+
+
+/* Number */
+
+.trust-item h3 {
+    font-size: 32px;
+    font-weight: 700;
+
+    color: #111827;
+
+    margin-bottom: 5px;
+}
+
+
+/* Text */
+
+.trust-item p {
+    color: #444;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+
+    background: #061a3a;
+
+    color: #ffffff;
+
+    padding-top: 70px;
+}
+
+
+/* Brand */
+
+.footer-brand {
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+}
+
+
+.site-footer p {
+
+    color: #b8c4d6;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    max-width: 330px;
+}
+
+
+/* Footer headings */
+
+.site-footer h4 {
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    margin-bottom: 22px;
+}
+
+
+/* Links */
+
+.footer-links {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+
+.footer-links li {
+
+    margin-bottom: 12px;
+}
+
+
+.footer-links a {
+
+    color: #b8c4d6;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+
+.footer-links a:hover {
+
+    color: #0d6efd;
+
+    padding-left: 5px;
+}
+
+
+/* Contact */
+
+.footer-contact {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+
+.footer-contact li {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-bottom: 15px;
+
+    color: #b8c4d6;
+
+    font-size: 14px;
+}
+
+
+.footer-contact i {
+
+    color: #0d6efd;
+
+    font-size: 16px;
+
+    margin-top: 3px;
+}
+
+
+/* Social icons */
+
+.footer-social {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-top: 22px;
+}
+
+
+.footer-social a {
+
+    width: 38px;
+
+    height: 38px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border: 1px solid #49617f;
+
+    border-radius: 50%;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+
+.footer-social a:hover {
+
+    background: #0d6efd;
+
+    border-color: #0d6efd;
+
+    transform: translateY(-3px);
+}
+
+
+/* Repair button */
+
+.footer-button {
+
+    background: #0d6efd;
+
+    color: #ffffff;
+
+    border: none;
+
+    padding: 10px 25px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    margin-top: 10px;
+}
+
+
+.footer-button:hover {
+
+    background: #0b5ed7;
+
+    color: #ffffff;
+}
+
+
+/* =========================
+   FOOTER BOTTOM
+========================= */
+
+.footer-bottom {
+
+    border-top: 1px solid #1d3557;
+
+    margin-top: 55px;
+
+    padding: 20px 0;
+
+    text-align: center;
+}
+
+
+.footer-bottom p {
+
+    margin: 0;
+
+    max-width: none;
+
+    font-size: 13px;
+
+    color: #8fa3bd;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .site-footer {
+
+        padding-top: 55px;
+
+    }
+
+    .footer-bottom {
+
+        margin-top: 40px;
+
+    }
+
+}
