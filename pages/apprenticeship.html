@@ -88,7 +88,11 @@
             </p>
           </div>
 
-          <form>
+          <form
+          action="../backend/apprenticeship_submit.php"
+                method="POST"
+                enctype="multipart/form-data"
+          >
             <!-- =================================
                          PERSONAL INFORMATION
                     ================================== -->
@@ -106,6 +110,7 @@
                   type="text"
                   class="form-control"
                   placeholder="Enter your full name"
+                  name="full_name"
                   required
                 />
               </div>
@@ -117,6 +122,7 @@
                   type="tel"
                   class="form-control"
                   placeholder="Enter your phone number"
+                  name="phone_number"
                   required
                 />
               </div>
@@ -128,19 +134,25 @@
                   type="email"
                   class="form-control"
                   placeholder="Enter your email address"
+                  name="email_address"
+                  required
                 />
               </div>
 
               <div class="col-md-6">
                 <label class="form-label"> Date of Birth </label>
 
-                <input type="date" class="form-control" required />
+                <input type="date" class="form-control"
+                name="date_of_birth"
+                required />
               </div>
 
               <div class="col-md-6">
                 <label class="form-label"> Gender </label>
 
-                <select class="form-select" required>
+                <select class="form-select" required
+                name="gender"
+                >
                   <option value="">Select Gender</option>
                   <option>Male</option>
                   <option>Female</option>
@@ -154,6 +166,7 @@
                   type="text"
                   class="form-control"
                   placeholder="Enter your address"
+                  name="residential_address"
                   required
                 />
               </div>
@@ -174,7 +187,7 @@
                   Previous Technical Experience
                 </label>
 
-                <select class="form-select">
+                <select class="form-select" name="previous_technical_experience">
                   <option value="">Select an option</option>
 
                   <option>No previous experience</option>
@@ -190,8 +203,8 @@
               <div class="col-md-6">
                 <label class="form-label"> How did you hear about us? </label>
 
-                <select class="form-select">
-                  <option value="">Select an option</option>
+                <select class="form-select" name="company_source">
+                  <option value="" selected disabled>Select an option</option>
 
                   <option>Friend or Family</option>
 
@@ -215,6 +228,7 @@
                   rows="4"
                   placeholder="Tell us why you want to become a phone technician..."
                   required
+                  name="why_learn"
                 ></textarea>
               </div>
 
@@ -227,6 +241,7 @@
                   class="form-control"
                   rows="3"
                   placeholder="Briefly describe your previous knowledge or experience..."
+                  name="previous_technical_knowledge"
                 ></textarea>
               </div>
             </div>
@@ -248,6 +263,7 @@
                   type="text"
                   class="form-control"
                   placeholder="Enter parent or guardian name"
+                  name="guardian_name"
                 />
               </div>
 
@@ -258,14 +274,15 @@
                   type="tel"
                   class="form-control"
                   placeholder="Enter phone number"
+                  name="guardian_phone"
                 />
               </div>
 
               <div class="col-md-6">
                 <label class="form-label"> Relationship </label>
 
-                <select class="form-select">
-                  <option value="">Select relationship</option>
+                <select class="form-select" name="relationship">
+                  <option value="" selected disabled>Select relationship</option>
 
                   <option>Father</option>
                   <option>Mother</option>
@@ -288,7 +305,10 @@
               <div class="col-md-6">
                 <label class="form-label"> Passport Photograph </label>
 
-                <input type="file" class="form-control" accept="image/*" />
+                <input type="file" class="form-control" accept="image/*" 
+                name="passport"
+                required
+                />
 
                 <small class="text-muted">
                   Upload a clear passport photograph.
@@ -307,6 +327,7 @@
                   type="checkbox"
                   id="agreement"
                   required
+                  name="agree_to_terms"
                 />
 
                 <label class="form-check-label" for="agreement">

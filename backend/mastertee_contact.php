@@ -1,5 +1,6 @@
 <?php
 
+session_start();
 require_once __DIR__ . "/db.php";
 require_once __DIR__ ."/send_notification.php";
 
@@ -185,7 +186,11 @@ if (!$emailSent) {
     );
 }
 
-echo "Your message has been submitted successfully!";
+// Redirect to the Bootstrap success page
+$_SESSION['application_success'] = true;
+
+header("Location: application_success_contact.php");
+exit;
 
 } catch (PDOException $e) {
 
